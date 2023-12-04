@@ -4,7 +4,7 @@ import java.util.Calendar;
 import java.util.List;
 
 public class sqlFunctions {
-    private String dbUrl = "jdbc:mysql://localhost/Scooter_Rental";
+    private String dbUrl = "jdbc:sqlite://localhost/Scooter_Rental";
     private String username = "root";
     private String password = "cs157scooter";
     private Connection conn = null;
